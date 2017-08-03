@@ -8,13 +8,6 @@ import android.view.ViewGroup;
 
 import com.Z.pikonlib.R;
 import com.Z.pikonlib.fragment.PaintFragment;
-
-
-/**
- * 颜色列表Adapter
- *
- * @author panyi
- */
 public class ColorListAdapter extends RecyclerView.Adapter<ViewHolder> {
     public static final int TYPE_COLOR = 1;
     public static final int TYPE_MORE = 2;

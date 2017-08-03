@@ -12,11 +12,6 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-/**
- * 贴图操作控件
- *
- * @author panyi
- */
 public class StickerView extends View {
     private static int STATUS_IDLE = 0;
     private static int STATUS_MOVE = 1;// 移动状态

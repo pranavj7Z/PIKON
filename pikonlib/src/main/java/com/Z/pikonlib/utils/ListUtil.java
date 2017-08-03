@@ -2,9 +2,7 @@ package com.Z.pikonlib.utils;
 
 import java.util.List;
 
-/**
- * Created by panyi on 17/3/30.
- */
+
 
 public class ListUtil {
     public static boolean isEmpty(List list) {

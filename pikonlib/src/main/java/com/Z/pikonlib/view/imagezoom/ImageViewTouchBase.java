@@ -17,13 +17,6 @@ import com.Z.pikonlib.view.imagezoom.easing.Easing;
 import com.Z.pikonlib.view.imagezoom.graphic.FastBitmapDrawable;
 import com.Z.pikonlib.view.imagezoom.utils.IDisposable;
 
-
-/**
- * Base View to manage image zoom/scrool/pinch operations
- * 
- * @author alessandro
- * 
- */
 public abstract class ImageViewTouchBase extends android.support.v7.widget.AppCompatImageView implements
 		IDisposable {
 

@@ -373,11 +373,8 @@ public class EditImageActivity extends BaseActivity {
     }
 
 
-    /**
-     * 切换底图Bitmap
-     *
-     * @param newBit
-     */
+
+
     public void changeMainBitmap(Bitmap newBit) {
         if(newBit == null)
             return;

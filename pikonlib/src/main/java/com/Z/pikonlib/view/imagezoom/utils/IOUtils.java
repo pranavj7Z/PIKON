@@ -8,12 +8,6 @@ import android.net.Uri;
 import android.os.ParcelFileDescriptor;
 import android.provider.MediaStore.Images.ImageColumns;
 
-/**
- * Various I/O utilities
- * 
- * @author alessandro
- * 
- */
 public class IOUtils {
 
 	/**

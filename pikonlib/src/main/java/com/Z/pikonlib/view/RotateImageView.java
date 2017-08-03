@@ -12,13 +12,6 @@ import android.view.View;
 
 import com.Z.pikonlib.utils.PaintUtil;
 
-
-/**
- * 旋转图片
- * 
- * @author 潘易
- * 
- */
 public class RotateImageView extends View {
 	private Rect srcRect;
 	private RectF dstRect;
