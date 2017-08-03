@@ -1,0 +1,80 @@
+<HorizontalScrollView
+    android:id="@+id/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="none"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_paint"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/image_edit_menu_margin"
+            android:gravity="center"
+            android:background="#FF9800"
+            android:foreground="@drawable/brush" />
+
+        <ImageButton
+            android:id="@+id/btn_stickers"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/image_edit_menu_margin"
+            android:gravity="center"
+            android:background="#FF9800"
+            android:foreground="@drawable/ic_insert_emoticon_white_48dp" />
+
+        <ImageButton
+            android:id="@+id/btn_fliter"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/image_edit_menu_margin"
+            android:gravity="center"
+            android:background="#FF9800"
+            android:foreground="@drawable/ic_photo_filter"
+       />
+
+        <ImageButton
+            android:id="@+id/btn_crop"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/image_edit_menu_margin"
+            android:background="#FF9800"
+            android:gravity="center"
+            android:foreground="@drawable/ic_crop"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_rotate"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/image_edit_menu_margin"
+            android:gravity="center"
+            android:background="#FF9800"
+            android:foreground="@drawable/ic_rotate_left"
+         />
+
+        <ImageButton
+            android:id="@+id/btn_text"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/image_edit_menu_margin"
+            android:gravity="center"
+            android:background="#FF9800"
+            android:foreground="@drawable/ic_format_color_text"
+            />
+
+
+    </LinearLayout>
+</HorizontalScrollView>
+

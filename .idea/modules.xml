@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PIKON.iml" filepath="$PROJECT_DIR$/PIKON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PIKON/PIKON-PIKON.iml" filepath="$PROJECT_DIR$/PIKON/PIKON-PIKON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pikonlib/pikonlib.iml" filepath="$PROJECT_DIR$/pikonlib/pikonlib.iml" />
+    </modules>
+  </component>
+</project>
